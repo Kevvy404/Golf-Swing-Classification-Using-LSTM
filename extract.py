@@ -17,7 +17,7 @@ def extract_and_save_features(csv_file_path, output_file_path):
     
     # Save the extracted data to a new CSV file
     extracted_data.to_csv(output_file_path, index=False)
-    # print(f"Data successfully saved to {output_file_path}")
+    print(f"Data successfully saved to {output_file_path}")
 
 # Specify the input and output file paths
 input_csv_path = 'Data/GolfSwingData-interpolate.csv'  # Replace with your input file path
