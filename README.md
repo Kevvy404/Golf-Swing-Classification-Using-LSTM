@@ -11,7 +11,7 @@ This program provides a Graphical User Interface (GUI) which can be used to clas
 - Displays the type of shot the model predicted
 - Displays the different metrics for the performance of the model
 
-## Installation
+## Installation and Usage
 ---
 This section specifies the steps required to run the program.
 
@@ -45,6 +45,23 @@ dir # Provides a list of files and directories in the current directory
 Then run this command to start the program:
 ```sh
 python main.py 
+```
+
+## Running The Unit Tests
+---
+Some of the unit tests are in their own separate files and some are within the function files. To run the unit tests, enter these commands into the terminal:
+
+### For MacOS and Linux 
+
+```sh
+python3 -m unittest test_LSTMTrain.py # Example of the tests within their own file
+python3 -m unittest LSTM.py # Example of the tests within the function file
+```
+
+### For Windows
+```sh
+python -m unittest test_LSTMTrain.py # Example of the tests within their own file
+python -m unittest LSTM.py # Example of the tests within the function file
 ```
 
 ## MIT License
