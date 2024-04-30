@@ -27,9 +27,9 @@ Go to the directory of where the code is saved on your local machine through the
 
 #### For MacOS and Linux
 ```sh
-cd someDirectory # Changes the directory to the specified one
-cd .. # Moves the directory back to the previous directory
-ls # Provides a list of files and directories in the current directory
+cd someDirectory   # Changes the directory to the specified one
+cd ..              # Moves the directory back to the previous directory
+ls                 # Provides a list of files and directories in the current directory
 ```
 Then run this command to start the program:
 ```sh
@@ -38,9 +38,9 @@ python3 main.py
 
 #### For Windows
 ```sh
-cd someDirectory # Changes the directory to the specified one
-cd .. # Moves the directory back to the previous directory
-dir # Provides a list of files and directories in the current directory
+cd someDirectory   # Changes the directory to the specified one
+cd ..              # Moves the directory back to the previous directory
+dir                # Provides a list of files and directories in the current directory
 ```
 Then run this command to start the program:
 ```sh
@@ -54,14 +54,14 @@ Some of the unit tests are in their own separate files and some are within the f
 ### For MacOS and Linux 
 
 ```sh
-python3 -m unittest test_LSTMTrain.py # Example of the tests within their own file
-python3 -m unittest LSTM.py # Example of the tests within the function file
+python3 -m unittest test_LSTMTrain.py   # Example of the tests within their own file
+python3 -m unittest LSTM.py             # Example of the tests within the function file
 ```
 
 ### For Windows
 ```sh
-python -m unittest test_LSTMTrain.py # Example of the tests within their own file
-python -m unittest LSTM.py # Example of the tests within the function file
+python -m unittest test_LSTMTrain.py    # Example of the tests within their own file
+python -m unittest LSTM.py              # Example of the tests within the function file
 ```
 
 ## MIT License
