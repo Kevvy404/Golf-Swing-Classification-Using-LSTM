@@ -6,7 +6,7 @@ import os
 class TestFeatureExtraction(unittest.TestCase):
     def setUp(self):
         # Path to the CSV file
-        self.file_path = 'extracted_features.csv'
+        self.file_path = 'Data/extracted_features.csv'
 
     def test_file_exists(self):
         """Test if the CSV file exists."""
